@@ -76,7 +76,7 @@ async def handle_message(update: Update, context):
 
 # --- Main ---
 def main():
-    bot_token = os.getenv("7933994365:AAH26fSeAKy-IaM_Z6Nab9uKGmQMtUbJtlA")
+    bot_token = os.getenv("TELEGRAM_TOKEN")
     if not bot_token:
         raise ValueError("Token Telegram tidak ditemukan di .env!")
     
